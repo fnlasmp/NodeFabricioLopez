@@ -1,0 +1,19 @@
+<h1 class="main_title">Carrito de compras</h1>
+<main>
+    <section class="product_list">
+    {{#if empty}}
+        <p>Tu carrito está vacío.</p>
+    {{else}}
+        <div class="info">
+            <p><strong>Total productos:</strong> {{cart.products.length}}</p>
+        </div>
+        {{#each cart.products}}
+            <div class="cart_card">
+                <h3>{{this.product._id}}</h3>
+                <p>Cantidad: {{this.quantity}}</p>
+            </div>
+        {{/each}}
+    {{/if}}
+    </section>
+</main>
+
