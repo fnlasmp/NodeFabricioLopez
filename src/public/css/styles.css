@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main_title {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #ADD8E6;
+    color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.product_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product_card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.add_to_cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product_form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.product_form label {
+    margin-top: 10px;
+}
+
+.product_form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.product_form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart_card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.navbar_products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar_products p {
+    margin-top: 5px;
+}
+
+
+.navbar_products a {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.navbar_products a:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pagination_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination_links a {
+    margin: 0 2px;
+}
+
+.sort_links {
+    display: flex;
+    justify-content: center;
+}
+
+.sort_links a {
+    margin: 0 5px;
+}
+
+.all_products_link {
+    margin-left: auto;
+}
+
+.products_link {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    margin-left: 46%;
+}
+
+.navbar .products_button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0;
+}

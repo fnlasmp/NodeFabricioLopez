@@ -17,7 +17,7 @@ router.post("/", async (req, res)=>{
 
 router.get("/", async (req, res)=>{
     try{
-        const elementsPerPage = req.query.limit || 10;
+        const elementsPerPage = req.query.limit || 2;
         const sortPrice = req.query.sort === "min" ? 1 : -1;
         const page = req.query.page ?? 1;
         const category = req.query.category

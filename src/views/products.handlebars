@@ -1,16 +1,17 @@
-<h1 class="main_title">Productos</h1>
+<h1 class="main_title">Nuestros Smartphones</h1>
 
 <nav class="navbar_products">
     {{#if info.hasPrevPage}}
     <a href="/product?page={{info.prevPage}}">Anterior {{info.prevPage}}</a>
     {{/if}}
 <p>Página actual: {{info.page}}</p>
-<p>Orden Precio: {{info.sort}}</p>
-    <a href="/product?page={{info.page}}&sort=min">Menor</a>
-    <a href="/product?page={{info.page}}&sort=max">Mayor</a>
+
 {{#if info.hasNextPage}}
     <a href="/product?page={{info.nextPage}}">Siguiente {{info.nextPage}}</a>
 {{/if}}
+<p>Orden Precio: {{info.sort}}</p>
+    <a href="/product?page={{info.page}}&sort=min">Menor</a>
+    <a href="/product?page={{info.page}}&sort=max">Mayor</a>
 </nav>
 <main>
     <section class="product_list">
